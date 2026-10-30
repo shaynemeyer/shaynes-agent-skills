@@ -1,0 +1,14 @@
+{
+  "name": "shaynes-agent-skills",
+  "description": "Shayne's agent skills for Claude Code and Kiro: a spec-driven feature workflow, project cleanup, and research prompts",
+  "owner": {
+    "name": "Shayne Meyer"
+  },
+  "plugins": [
+    {
+      "name": "feature-workflow",
+      "source": "./plugins/feature-workflow",
+      "description": "Spec-driven feature workflow (setup, plan, audit, load, start, parallel, review, test, explain, complete, abandon), plus cleanup and research skills"
+    }
+  ]
+}

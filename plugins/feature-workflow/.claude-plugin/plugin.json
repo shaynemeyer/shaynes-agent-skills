@@ -1,0 +1,8 @@
+{
+  "name": "feature-workflow",
+  "version": "1.0.0",
+  "description": "Spec-driven feature workflow (setup, plan, audit, load, start, parallel, review, test, explain, complete, abandon), plus cleanup and research skills",
+  "author": {
+    "name": "Shayne Meyer"
+  }
+}
