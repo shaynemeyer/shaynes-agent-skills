@@ -54,9 +54,12 @@ installed one, and in Claude Code both copies would be offered.
 1. Edit the skills under `plugins/feature-workflow/skills/`.
 2. Run the script tests: `sh plugins/feature-workflow/skills/feature/scripts/test-spec-fields.sh`.
 3. Bump `version` in **both** `plugins/feature-workflow/.claude-plugin/plugin.json` (Claude Code)
-   and `plugins/feature-workflow/plugin.json` (Kiro), so both tools see an update.
+   and `plugins/feature-workflow/plugin.json` (Kiro), so both tools see an update. Don't add
+   `version` to the entry in `marketplace.json`.
 4. Validate: `claude plugin validate .`
 5. Commit and push.
+
+See `docs/publishing.md` for how this repository was set up.
 
 ## Layout
 
@@ -68,4 +71,5 @@ plugins/feature-workflow/
   skills/feature/                          SKILL.md, actions/, scripts/, templates/
   skills/cleanup/SKILL.md
   skills/research/SKILL.md
+docs/publishing.md                         How this marketplace was built and published
 ```
